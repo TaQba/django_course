@@ -1,0 +1,12 @@
+table {
+    border-size: 1re;
+}
+table td {
+    width:100px;
+    height:100px;
+}
+p.big {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
