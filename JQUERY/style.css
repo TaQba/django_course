@@ -1,12 +1,17 @@
-table {
-    border-size: 1re;
+.oval {
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+
 }
-table td {
-    width:100px;
-    height:100px;
+.grey-oval {
+    background-color: grey;
 }
-p.big {
-    margin: auto;
-    font-size: 50px;
-    text-align: center;
+.red-oval {
+    background-color: red !important;
+}
+.blue-oval {
+    background-color: blue !important;
 }
