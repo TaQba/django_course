@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page - APP Users</title>
+
+</head>
+<body>
+    <h1>Here are your users:</h1>
+    <div class="djangotwo">
+            {% if user_list %}
+                <ol>
+                    {% for user in user_list  %}
+                    <li>
+                        User Info
+                        <ul>
+                            <li>First Name: {{ user.first_name }}</li>
+                            <li>Last Name: {{ user.second_name }}</li>
+                            <li>Email: {{ user.email }}</li>
+                        </ul>
+                    </li>
+                    {% endfor %}
+                </ol>
+            {% else %}
+                <p>No users found</p>
+            {% endif %}
+        </div>
+</body>
+</html>
